@@ -2,8 +2,6 @@
 
 const fp = require('fastify-plugin')
 
-require('dotenv').config()
-
 const {
     MONGO_USERNAME,
     MONGO_PASSWORD,
