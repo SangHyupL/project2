@@ -2,7 +2,8 @@ name: ECS-Docker Image CI
 
 on:
   push:
-    branches: [ "sanghyupl" ]
+    branches:
+      -my-branch
 
 jobs:
   push_to_registry:
