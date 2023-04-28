@@ -29,5 +29,5 @@ jobs:
           IMAGE_TAG: ${{ github.sha }}
         run: |
           cd project2
-          docker build -t $REGISTRY/project2:$IMAGE_TAG .
-          docker push $REGISTRY/project2:$IMAGE_TAG
+          docker build -t $REGISTRY/sanghyupl:$IMAGE_TAG .
+          docker push $REGISTRY/sanghyupl:$IMAGE_TAG
