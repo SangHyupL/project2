@@ -15,3 +15,4 @@ module.exports = async function (fastify, opts) {
       reply.send(result)
     })
 }
+
