@@ -1,6 +1,10 @@
 # 버전은 현재, 0.2가 권장사항
 version: 0.2
 
+env:
+  variables:
+    REACT_APP_ENDPOINT: serverALB-1619515201.ap-northeast-2.elb.amazonaws.com
+
 # 빌드 단계별로 원하는 명령을 입력
 phases:
   # 빌드 전에 필요한 환경을 설치
