@@ -8,9 +8,9 @@ env:
 # 빌드 단계별로 원하는 명령을 입력
 phases:
   # 빌드 전에 필요한 환경을 설치
-#  install:
-#    runtime-versions:
-#      nodejs: 16
+  install:
+    runtime-versions:
+      nodejs: 14
   # 빌드 전에 수행할 명령을 입력
   pre_build:
     commands:
