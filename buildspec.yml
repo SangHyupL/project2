@@ -1,0 +1,26 @@
+# 버전은 현재, 0.2가 권장사항
+version: 0.2
+
+# 빌드 단계별로 원하는 명령을 입력
+phases:
+  # 빌드 전에 필요한 환경을 설치
+#  install:
+#    runtime-versions:
+#      nodejs: 16
+  # 빌드 전에 수행할 명령을 입력
+  pre_build:
+    commands:
+      - cd project2-frontend
+      - npm install
+  # 빌드를 수행할 명령을 입력
+  build:
+    commands:
+      - npm run build
+# 빌드 결과물로 나온 아티팩트에 대한 정보를 제공
+artifacts:
+  # 빌드 환경에서 빌드 출력 결과물이 생성되는 위치를 나타냄
+  # '**/*'는 모든 파일을 재귀적으로 나타냄
+  files:
+    - '**/*'
+  base-directory: project2-frontend/build
+
