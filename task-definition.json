@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:775385743817:task-definition/helloWorld-was-tesk:13",
+    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:775385743817:task-definition/helloWorld-was-tesk:16",
     "containerDefinitions": [
         {
             "name": "hellowas",
-            "image": "775385743817.dkr.ecr.ap-northeast-2.amazonaws.com/sanghyupl:1bf12d428e47e637e3e7fc4dd195e45231899617",
+            "image": "775385743817.dkr.ecr.ap-northeast-2.amazonaws.com/sanghyupl:67737fa03cf03bf62a164076a9d0da57d1e8db42",
             "cpu": 0,
             "portMappings": [
                 {
@@ -15,24 +15,23 @@
                 }
             ],
             "essential": true,
-            "environment": [
+            "environment": [],
+            "mountPoints": [],
+            "volumesFrom": [],
+            "secrets": [
                 {
                     "name": "MONGO_USERNAME",
-                    "value": "root"
+                    "valueFrom": "arn:aws:secretsmanager:ap-northeast-2:775385743817:secret:MONGO_USER_SECRET-X8Msd6"
                 },
                 {
                     "name": "MONGO_HOSTNAME",
-                    "value": "mongo-load-d65d1f1ba42dc292.elb.ap-northeast-2.amazonaws.com"
+                    "valueFrom": "arn:aws:secretsmanager:ap-northeast-2:775385743817:secret:MONGO_HOST_SECRET-d2WQJ6"
                 },
                 {
                     "name": "MONGO_PASSWORD",
-                    "value": "example"
+                    "valueFrom": "arn:aws:secretsmanager:ap-northeast-2:775385743817:secret:MONGO_PASSWORD_SECRET-yRsvVC"
                 }
             ],
-            "environmentFiles": [],
-            "mountPoints": [],
-            "volumesFrom": [],
-            "ulimits": [],
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
@@ -48,7 +47,7 @@
     "taskRoleArn": "arn:aws:iam::775385743817:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::775385743817:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 13,
+    "revision": 16,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -63,6 +62,9 @@
         },
         {
             "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
+        },
+        {
+            "name": "ecs.capability.secrets.asm.environment-variables"
         },
         {
             "name": "com.amazonaws.ecs.capability.task-iam-role"
@@ -94,7 +96,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-04-28T13:59:28.453Z",
+    "registeredAt": "2023-04-29T03:30:39.215Z",
     "registeredBy": "arn:aws:iam::775385743817:root",
     "tags": []
 }
