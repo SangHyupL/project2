@@ -1,4 +1,5 @@
 {
+    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:775385743817:task-definition/helloWorld-was-tesk:35",
     "containerDefinitions": [
         {
             "name": "hellowas",
