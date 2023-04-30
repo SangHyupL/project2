@@ -10,7 +10,7 @@ phases:
   # 빌드 전에 필요한 환경을 설치
   install:
     runtime-versions:
-      nodejs: 14
+      nodejs: 18
   # 빌드 전에 수행할 명령을 입력
   pre_build:
     commands:
