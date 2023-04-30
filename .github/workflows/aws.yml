@@ -9,7 +9,7 @@ env:
   ECR_REPOSITORY: sanghyupl                   # set this to your Amazon ECR repository name
   ECS_SERVICE: hellowasworld-Sev              # set this to your Amazon ECS service name
   ECS_CLUSTER: backend-cluster                # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: helloWorld-was-tesk    # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: Devops-04-S2-Team8/task-definition.json    # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: hellowas                     # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
