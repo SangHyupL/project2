@@ -8,7 +8,7 @@ env:
   AWS_REGION: ${{ secrets.AWS_REGION }}       # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: sanghyupl                   # set this to your Amazon ECR repository name
   ECS_SERVICE: hellowasworld-Sev              # set this to your Amazon ECS service name
-  ECS_CLUSTER: backend-cluster                # set this to your Amazon ECS cluster name
+  ECS_CLUSTER: backend-cls                    # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: Devops-04-S2-Team8/task-definition.json    # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: hellowas                     # set this to the name of the container in the
@@ -66,5 +66,5 @@ jobs:
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
         service: hellowasworld-Sev
-        cluster: backend-cluster
+        cluster: backend-cls
         wait-for-service-stability: true
