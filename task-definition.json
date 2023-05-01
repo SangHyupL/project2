@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:775385743817:task-definition/helloWorld-was-tesk:17",
+    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:775385743817:task-definition/helloWorld-was-tesk:37",
     "containerDefinitions": [
         {
             "name": "hellowas",
-            "image": "775385743817.dkr.ecr.ap-northeast-2.amazonaws.com/sanghyupl:2786a4b9e4ca9f6cbe6748a6c63d29448353860d",
+            "image": "775385743817.dkr.ecr.ap-northeast-2.amazonaws.com/sanghyupl:cde8d1f3756980b61373a4c071be249a4f564d77",
             "cpu": 0,
             "portMappings": [
                 {
@@ -47,7 +47,7 @@
     "taskRoleArn": "arn:aws:iam::775385743817:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::775385743817:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 17,
+    "revision": 37,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -96,7 +96,8 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-04-29T06:32:20.597Z",
+    "registeredAt": "2023-04-30T08:10:25.933Z",
     "registeredBy": "arn:aws:iam::775385743817:user/admin",
     "tags": []
 }
+

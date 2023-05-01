@@ -23,5 +23,3 @@ services:
       MONGO_PASSWORD: ${MONGO_PASSWORD}
       MONGO_HOSTNAME: ${MONGO_HOSTNAME}
 
-
-
