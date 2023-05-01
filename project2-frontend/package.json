@@ -14,8 +14,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "PORT=4000 REACT_APP_ENDPOINT=http://localhost:3000 react-scripts start",
-    "build": "REACT_APP_ENDPOINT=http://localhost:3000 react-scripts build",
+    "start": "PORT=4000 REACT_APP_ENDPOINT=http://serverALB-2133290046.ap-northeast-2.elb.amazonaws.com react-scripts start",
+    "build": "REACT_APP_ENDPOINT=http://serverALB-2133290046.ap-northeast-2.elb.amazonaws.com react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
