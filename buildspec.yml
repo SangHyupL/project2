@@ -3,7 +3,7 @@ version: 0.2
 
 env:
   variables:
-    REACT_APP_ENDPOINT: serverALB-1619515201.ap-northeast-2.elb.amazonaws.com
+    REACT_APP_ENDPOINT: serverALB-2133290046.ap-northeast-2.elb.amazonaws.com
 
 # 빌드 단계별로 원하는 명령을 입력
 phases:
