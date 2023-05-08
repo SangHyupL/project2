@@ -11,10 +11,10 @@ Frontend
  
 Backend
 
-<img width="674" alt="스크린샷 2023-05-03 오후 10 13 23" src="https://user-images.githubusercontent.com/127010049/235926308-dbb2b9aa-ab93-44d3-8750-d739f1fe2452.png">
+<img width="680" alt="스크린샷 2023-05-08 오후 2 50 56" src="https://user-images.githubusercontent.com/127010049/236744356-685f9e43-88fa-4359-83aa-5edf5e34d506.png">
 
  > backend와 DataBase는 Git Action을 통해 배포를 했는데, dockerfile 작성 후 그 내용을 토대로 빌드하여 ECR로 푸쉬했고, ECR로 올린 이미지와 task-definition을 이용해 ECS에 배포하도록 하였습니다
- 
+
  
  전체적인 AWS 다이어그램은 아래와 같습니다
  
