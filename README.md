@@ -41,6 +41,7 @@ CI/CD 파이프라인: <img src="https://img.shields.io/badge/githubactions-2088
 - prontend는 codepipeline으로 S3로 배포된다.
 - backend는 CI/CD 파이프라인으로 Github 레포지토리에 release될 시 트리거되어, 자동적인 통합 및 배포를 실행한다
 - 캐싱으로 빠른 컨텐츠를 지원하고, S3의 접근 비용을 낮추기 위해 CloudFront를 사용하였다.
+- 외부에서 접근할 시 보안을 위해 http 기반 트래픽을 https로 전환하기 위해서 Certificate Manager + Route53 사용
 
 <br>
 
