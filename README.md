@@ -2,6 +2,12 @@
 
 <br>
 
+# 💡 전체 아키텍처 다이어그램
+ 
+<img width="975" alt="스크린샷 2023-05-08 오후 2 47 46" src="https://user-images.githubusercontent.com/127010049/236743934-06d039df-b6fa-44c6-be58-2441d69c225c.png">
+
+<br>
+
 # 💡 Frontend 아키텍처 다이어그램
 
 <img width="673" alt="스크린샷 2023-05-03 오후 9 59 32" src="https://user-images.githubusercontent.com/127010049/235923778-fcea06a2-18a8-47b4-bbf2-09b4334f2903.png">
@@ -13,12 +19,6 @@
 <img width="680" alt="스크린샷 2023-05-08 오후 2 50 56" src="https://user-images.githubusercontent.com/127010049/236744356-685f9e43-88fa-4359-83aa-5edf5e34d506.png">
 
  <br>
- 
-# 💡 전체 아키텍처 다이어그램
- 
-<img width="975" alt="스크린샷 2023-05-08 오후 2 47 46" src="https://user-images.githubusercontent.com/127010049/236743934-06d039df-b6fa-44c6-be58-2441d69c225c.png">
-
-<br>
 
 # 💻 프로젝트 소개
 배당의 민족 기능에 대한 영감을 받아, 사용자가 원하는 가게에서 배달을 시키면 주문이 등록돠는 서비스
